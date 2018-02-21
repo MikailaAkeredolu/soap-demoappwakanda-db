@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GetCourseDetailsResponse xmlns="http://wakanda.com/courses" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://wakanda.com/courses course-details.xsd">
+	<CourseDetails>
+		<id>123</id>
+		<name>Spring Soap Tutorial</name>
+		<description>Learning basics of spring soap frame-work</description>
+	</CourseDetails>
+</GetCourseDetailsResponse>
