@@ -31,6 +31,7 @@ public class CourseDetailsEndpoint {
 				if(course == null) {
 					throw new CourseNotFoundException("Invalid course Id " + request.getId());
 				}
+				System.out.println("Test updated for github");
 				return mapCourseDetails(course);
 			}
 			
